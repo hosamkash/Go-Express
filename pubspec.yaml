@@ -1,0 +1,84 @@
+name: go_express_test
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter_launcher_icons: ^0.14.0
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+
+  #  cupertino_icons: ^1.0.8
+  flutter_conditional_rendering: ^2.1.0 #  Write Condional Builder
+  bloc: ^8.1.4 #  Manage Bloc & Cubit
+  flutter_bloc: ^8.1.6  #  Manage Bloc & Cubit +    bloc: ^8.1.4
+  fluttertoast: ^8.2.6  #  Show Messege as tost or snake
+  hive: ^2.2.3 # Saved Temp Data
+  path_provider: ^2.1.4 #get Directory Path
+  carousel_slider: ^5.0.0 # create slider
+  image_picker: ^1.1.2 # للتعامل مع الصور
+  image: ^4.3.0 # ضغط الصور الكبيرة
+  #  connect_to_sql_server_directly: ^0.0.1
+  smooth_page_indicator: ^1.2.0+3 # لعمل Indecators الموجود اسفل الصفحة فى Boarding
+  url_launcher: ^6.3.0 # للتعامل مع URL وفتح ارسال رسائل نصية ومكالمات
+  intl: ^0.19.0 #  Formate Date Time
+  #  flutter_barcode_scanner: ^2.0.0
+  #  mobile_scanner: ^6.0.2 # لان فيها مشكلة مع الاصدار الحالى flutter_barcode_scanner بديل
+  local_auth: ^2.0.0
+  flutter_lock_screen: ^2.0.1 # خاص بالصمة والباترن والتوقيع حضور وانصراف
+  connectivity_plus: ^6.1.1 # لمعرفة حالة الاتصال بالانترنت
+  geolocator: ^13.0.1 # لأخذ اللوكيشن
+  google_maps_flutter: ^2.9.0 # لعرض خريطة جوجل عند أخذ لوكيشن
+  #  contacts_service: ^0.6.2 # لتحميل بيانات سجل الهاتف
+  flutter_contacts: ^1.1.9+2 #  لفتح سجل الهاتف واختيار منه وإرجاع بياناته
+  permission_handler: ^11.3.1 # لطلب إذن الوصول إلى جهات الاتصال
+  geocoding: ^3.0.0 # للحصول على اسم المنطقة (أو العنوان) من الخريطة بناءً على الإحداثيات
+  http: ^1.2.2 #
+  redacted: ^1.0.12 # لأي كونتينر Loading shap بتعمل shimmer Effect مثل
+  get: ^4.6.6 # State Managment بديل ال البلوك الأشهر
+  get_storage: ^2.1.1 # Hive بديل ال
+  dartz: ^0.10.1 # خصائص كتير مع استخدام الدارت
+  equatable: ^2.0.7 # مهمه جدا مع البلوك عشان بتقارن 2 اوبجكت بناء على الداتا وليس الريفرنس
+  get_it: ^8.0.2 #  Dependancy Injection تستخدم لعمل
+  flutter_screenutil: ^5.9.3 # وإستخدامي مع الفونت بشكل اساسي Responsivr UI  لعمل
+  flutter_svg: ^2.0.16 # لاستخدام الصور بكل احترافي ومنع البكسلة
+
+  # Firebase
+  firebase_core: ^3.8.1
+  firebase_auth: ^5.3.4
+  cloud_firestore: ^5.5.1
+  firebase_storage: ^12.3.7
+  firebase_messaging: ^15.1.6 # Notifications
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/ticket bus icon.png"
+
+#flutter_launcher_icons:
+#android: true
+#ios: true
+#image_path: "assets/ticket bus icon.png"
+#adaptive_icon_background: "assets/background.png"
+#adaptive_icon_foreground: "assets/foreground.png"
+
+flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
